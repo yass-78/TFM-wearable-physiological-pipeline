@@ -1,9 +1,15 @@
-Repository Structure
+# Wearable Physiological Processing Pipeline (TFM)
+
+This repository contains the complete data processing pipeline developed for a Master’s Thesis (TFM) focused on the harmonization, preprocessing, and feature extraction of physiological signals acquired from wearable devices, specifically **Empatica E4** and **Empatica Embrace Plus**.
+
+The pipeline addresses methodological challenges derived from differences in data architecture, temporal fragmentation, and signal formatting between both devices, enabling the reuse of consolidated analytical tools such as **FLIRT**.
+
+## Repository Structure
 
 The pipeline is organized into sequential processing stages, each implemented as an independent notebook:
 
+```text
 TFM-wearable-physiological-pipeline/
-│
 ├── Leer y guardar/
 │   ├── Leer_archivos_avro.ipynb
 │   └── guardar_csv_embrace.ipynb
@@ -27,7 +33,7 @@ TFM-wearable-physiological-pipeline/
 
 Each folder corresponds to a specific methodological stage of the pipeline.
 
-Pipeline Description
+## Pipeline Description
 
 1. Leer y guardar
 
