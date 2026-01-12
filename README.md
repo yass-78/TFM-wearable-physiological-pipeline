@@ -5,33 +5,6 @@ This repository contains the complete data processing pipeline developed for a M
 The pipeline addresses methodological challenges derived from differences in data architecture, temporal fragmentation, and signal formatting between both devices, enabling the reuse of consolidated analytical tools such as **FLIRT**.
 
 ---
-## Repository Structure
-
-The pipeline is organized into sequential processing stages, each implemented as an independent Jupyter notebook:
-
-TFM-wearable-physiological-pipeline/
-│
-├── Leer y guardar/
-│   ├── Leer_archivos_avro.ipynb
-│   └── guardar_csv_embrace.ipynb
-│
-├── Emparejamiento/
-│   └── emparejar_embrace_empatica.ipynb
-│
-├── Preprocesamiento/
-│   └── preprocesamiento.ipynb
-│
-├── On Off Body/
-│   └── Alg OnOffBody.ipynb
-│
-├── Van Hees/
-│   └── Alg Van Hees.ipynb
-│
-├── FLIRT/
-│   └── aplicacion mask + flirt.ipynb
-│
-└── README.md
----
 
 ## Pipeline Stages (Overview)
 
