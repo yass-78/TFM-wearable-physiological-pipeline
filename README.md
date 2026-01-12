@@ -30,6 +30,7 @@ TFM-wearable-physiological-pipeline/
 │   └── aplicacion mask + flirt.ipynb
 │
 └── README.md
+```text
 
 Each folder corresponds to a specific methodological stage of the pipeline.
 
